@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+        <h1 class="text-2xl font-bold">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+        <ul class="hidden md:flex gap-6 text-gray-600">
+            <li>
+                <a href="index.html" class="hover:text-green-700 hover:underline">Home</a>
+            </li>
+
+            <li>
+                <a href="product.html" class="hover:text-green-700 hover:underline">Products</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="hover:text-green-700 hover:underline">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- Our Products Section -->
+    <section class="text-center p-6">
+        <h1 class="font-bold text-3xl mb-6">Our Products</h1>
+
+        <!-- Search Bar -->
+        <div class="mb-6">
+            <input type="text" placeholder="Search for a product..."
+                class="border border-gray-300 px-4 py-2 w-80 rounded">
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image2.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$30</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image2.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image2.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image2.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="text-center p-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image3.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image3.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image3.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+            <div class="bg-white p-3 rounded shadow hover:shadow-xl transition">
+                <img src="image3.jpg" class="w-90 h-90 object-cover mb-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p class="text-green-700 font-bold">$80</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5 text-center">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The standard chunk of lorem ipsum used since the 1500s is reproduced below.</p>
+        <p>@2026 Greenden.com</p>
+    </section>
+
+</body>
+
+</html>
